@@ -7,12 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Teen jotain siistiä tällä</h1>
-    <ul>
+    <h1 id="hhh">Teen jotain siistiä tällä</h1>
+    <ul id="list">
         <li>Lista 1</li>
         <li>2 astiL</li>
         <li>TsaLi 3</li>
         <li>4 istLa</li>
     </ul>
+
+    <script>
+        var test = document.getElementById("hhh");
+        var oldText = test.innerHTML;
+        test.innerHTML = "<i>Todella</i> hieno homma";
+    </script>
 </body>
 </html>
