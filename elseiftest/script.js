@@ -11,3 +11,15 @@ switch(familyMember) {
         console.warn("Not handled");
         break;
 }
+
+var name1 = "Kalob";
+
+if(name1 == "Kalob") {
+    console.log("AWESOME");
+} else if(name1 == "Zephyr") {
+    console.log("MEOW");
+} else if (name1 == "Henry") {
+    console.log("Little meow");
+} else {
+    console.warn("Not handled");
+}
