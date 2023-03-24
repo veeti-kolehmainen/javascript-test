@@ -5,5 +5,5 @@ var welcomeNode = document.getElementById("welcome");
 if(userName.toLowerCase() == "veeti") {
     welcomeNode.innerText = "Welcome to your website Veeti";
 } else {
-    welcomeNode.innerText = "fuck off retard";
+    welcomeNode.innerText = "Get out!";
 }
