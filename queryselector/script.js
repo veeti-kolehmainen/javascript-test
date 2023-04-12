@@ -4,8 +4,7 @@ change.innerText = "Changed"*/
 var title = document.querySelector("title");
 
 var small = title.querySelector("small");
-console.log(title)
-console.log(small)
+
 small.innerText = "WOWOWOWOOWWO";
 
 var a = document.querySelector("a");
