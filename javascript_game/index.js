@@ -59,9 +59,15 @@ function inputs(){
 //setInterval(drawGame, 1000)
 
 function drawBlueBlob(){
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "blue";
     if (upPressed) {
         ctx.fillStyle = "red";
+    } else if (downPressed) {
+        ctx.fillStyle = "green";
+    } else if (leftPressed) {
+        ctx.fillStyle = "yellow";
+    } else if (rightPressed) {
+        ctx.fillStyle = "purple";
     }
     ctx.beginPath();
     ctx.arc(x,y, radius,0, Math.PI * 2);
