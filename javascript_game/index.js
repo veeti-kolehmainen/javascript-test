@@ -59,7 +59,7 @@ function inputs(){
 //setInterval(drawGame, 1000)
 
 function drawBlueBlob(){
-    ctx.fillStyle = "blue";
+    ctx.fillStyle = "green";
     if (upPressed) {
         ctx.fillStyle = "red";
     }
