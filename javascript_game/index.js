@@ -113,3 +113,5 @@ function keyUp(event){
     }
 }
 drawGame();
+
+alert("Use the arrow keys to move the Blue Blob!")
