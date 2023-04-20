@@ -11,6 +11,8 @@ let downPressed = false;
 let leftPressed = false;
 let rightPressed = false;
 
+var btn = document.querySelector(".my-btn");
+
 // Game Loop
 function drawGame(){
     requestAnimationFrame(drawGame);
@@ -120,4 +122,8 @@ function keyUp(event){
 }
 drawGame();
 
-alert("Use the arrow keys to move the Blue Blob!")
+btn.addEventListener("click", function(event){
+    alert("Use arrow keys to move the blob");
+})
+
+//alert("Use the arrow keys to move the Blue Blob!")
