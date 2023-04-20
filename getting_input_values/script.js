@@ -6,8 +6,7 @@ function callback(event) {
 input.addEventListener("keyup", callback)
 
 
-
-
+// alternative way to do it
 /*input.addEventListener("keyup", function(event) {
     nameElem.innerText = event.target.value
 })*/

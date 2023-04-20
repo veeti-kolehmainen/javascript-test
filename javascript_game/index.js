@@ -22,6 +22,7 @@ function drawGame(){
     drawBlueBlob();
 }
 
+// boundries
 function boundryCheck(){
     //up
     if( y < radius) {
@@ -41,6 +42,7 @@ function boundryCheck(){
     }
 }
 
+// makes the blob move
 function inputs(){
     if(upPressed){
         y -= speed;
@@ -83,6 +85,7 @@ function clearScreen(){
 document.body.addEventListener("keydown", keyDown);
 document.body.addEventListener("keyup", keyUp);
 
+// controls
 function keyDown(event){
     //up
     if(event.keyCode == 38){
@@ -122,8 +125,8 @@ function keyUp(event){
 }
 drawGame();
 
+// controls instructions button
 btn.addEventListener("click", function(event){
     alert("Use arrow keys to move the blob");
 })
 
-//alert("Use the arrow keys to move the Blue Blob!")
