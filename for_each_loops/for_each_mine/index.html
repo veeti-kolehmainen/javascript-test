@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Each Loop 2</title>
+</head>
+<body>
+    
+    <h1>Hello!</h1>
+    <h3 class="lines">Line 1</h3>
+    <h3 class="lines">Line 2</h3>
+    <h3 class="lines">Line 3</h3>
+    <h3 class="lines">Line 4</h3>
+    <h3 class="lines">Line 5</h3>
+    <h3 class="lines">Line 6</h3>
+    <h3 class="lines">Line 7</h3>
+    <h3 class="lines">Line 8</h3>
+    <h3 class="lines">Line 9</h3>
+
+
+    <script>
+        var lines = document.querySelectorAll(".lines");
+
+        lines.forEach(function(node, index) {
+            node.innerText = "This is line " + index;
+        })
+ </script>
+</body>
