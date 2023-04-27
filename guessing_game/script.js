@@ -10,10 +10,11 @@ while(number != 23) {
 }
 guessStatus.innerText = "Status: GUESSED!";
 console.log("CORRECT!");
-alert("YOU WON!! CONGRATULATIONS!!!");
 
 document.body.style.backgroundImage = "url('explosion.png')";
 document.body.style.color = "white";
+
+alert("YOU WON!! CONGRATULATIONS!!!");
 
 /*while(1 < 2) {
     console.log("GET CRASHED!")
