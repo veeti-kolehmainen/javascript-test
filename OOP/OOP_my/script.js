@@ -1,3 +1,4 @@
+// declaring a bunch of constants
 const svanteButton = document.querySelector(".btn-svante")
 const oveButton = document.querySelector(".btn-ove")
 const kekkonenButton = document.querySelector(".btn-kekkonen")
@@ -5,6 +6,7 @@ const oskariButton = document.querySelector(".btn-oskari")
 
 const catDescription = document.getElementById("catDescription");
 
+// class
 class Cat {
     constructor(name, age, color) {
         this.name = name
@@ -21,6 +23,7 @@ const ove = new Cat("Ove", 4, "grey");
 const kekkonen = new Cat("Kekkonen", 12, "striped brown");
 const oskari = new Cat("Oskari", 5, "orange");
 
+// Button eventListeners
 svanteButton.addEventListener("click", function(e) {
     svante.description();
 })
