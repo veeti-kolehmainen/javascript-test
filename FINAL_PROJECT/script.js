@@ -26,3 +26,11 @@ jsLetters.forEach(node => {
         this.classList.remove("active")
     })
 })
+
+const r = document.querySelector(".r")
+r.addEventListener("mouseover", function(event) {
+    document.body.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/7/79/Operation_Upshot-Knothole_-_Badger_001.jpg')"
+})
+r.addEventListener("mouseout", function(event) {
+    document.body.style.backgroundImage = null
+})
