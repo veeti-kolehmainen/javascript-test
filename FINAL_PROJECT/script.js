@@ -7,6 +7,12 @@ letters.forEach(letter => {
     if(letter !== " ") {
         classes = "letter js-letter"
     }
+    if(letter == "a") {
+        classes = classes + " a"
+    }
+    if(letter == "r") {
+        classes = classes + " r"
+    }
     html = html + `<span class='${classes}'>${letter}</span>`
 })
 
