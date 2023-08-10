@@ -4,7 +4,8 @@ const songs = [
     "omfg_hello.wav",
     "super_idol.wav",
     "turipipip.wav",
-    "turipipip.wav"
+    "turipipip.wav",
+    "ding.wav"
 ];
 const player = document.getElementById("player")
 
@@ -60,5 +61,22 @@ function updateProgress() {
     if(player.currentTime > 0) {
         const progressBar = document.getElementById("progress")
         progressBar.value = (player.currentTime / player.duration) * 100
+    }
+}
+
+const loop = document.getElementById("loop")
+loopClick = 0
+
+loop.addEventListener("click", startLoop)
+
+function startLoop() {
+    if(loopClick == 0) {
+        player.loop = true;
+        loop.innerText = "Loop: On"
+        loopClick++;
+    } else {
+        player.loop = false;
+        loop.innerText = "Loop: Off"
+        loopClick = 0
     }
 }

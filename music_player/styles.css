@@ -1,6 +1,7 @@
 html {
     font-size: 10px;
     font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 }
 
 .player {
-    background: radial-gradient(#211e24, #4f3341);
+    background: radial-gradient(#063f9c, #032966);
     padding: 2rem;
     border-radius: 2rem;
 }
@@ -67,6 +68,12 @@ progress {
 .pulse {
     animation: pulse;
     animation-duration: 0.4s;
+}
+
+#loop {
+    padding: 5px;
+    outline: 1px solid black;
+    width: 10%;
 }
 
 @keyframes pulse {
