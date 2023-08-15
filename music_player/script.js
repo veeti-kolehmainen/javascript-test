@@ -4,7 +4,7 @@ const songs = [
     "omfg_hello.wav",
     "super_idol.wav",
     "turipipip.wav",
-    "turipipip.wav",
+    "xiaoling.wav",
     "ding.wav"
 ];
 const player = document.getElementById("player")
