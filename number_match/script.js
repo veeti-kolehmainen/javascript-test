@@ -19,6 +19,10 @@ const images = [
       image_name: 'smartphones.jpg',
       number_of_items: 5,
     },
+    {
+        image_name: "cloudronics_services.png",
+        number_of_items: 6,
+    }
 ];
 
 const timeDelay = 3000
