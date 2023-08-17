@@ -20,7 +20,7 @@ const images = [
       number_of_items: 5,
     },
     {
-      image_name: "cloudronics_services.jpg",
+      image_name: 'cloudronics_services.jpg',
       number_of_items: 6,
     }
 ];
