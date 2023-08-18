@@ -80,3 +80,4 @@ function startLoop() {
         loopClick = 0
     }
 }
+
